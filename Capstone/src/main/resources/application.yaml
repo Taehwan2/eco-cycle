@@ -1,0 +1,52 @@
+#server:
+#  port: 8888
+spring:
+  jpa:
+    show-sql: true
+    properties:
+      hibernate:
+        format_sql: true
+        dialect: org.hibernate.dialect.MySQL8Dialect
+    hibernate:
+      ddl-auto: validate
+  datasource:
+    url: jdbc:mysql://localhost:3306/capston?useSSL=false&useUnicode=true&allowPublicKeyRetrieval=true
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    username: root
+    password: root1234!!
+  data:
+    mongodb:
+      uri: mongodb://localhost:27017/capston
+
+  security:
+    oauth2:
+      client:
+        registration:
+           google:
+            clientId: 476888383705-sm5pmlbt9p75s820eepri6kts20bvs5f.apps.googleusercontent.com
+            clientSecret: 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
+            redirect-uri: http://localhost:8080/login/oauth2/code/google
+            scope:
+              - email
+              - profile
+logging:
+  level.org:
+    hibernate.type:
+      descriptor:
+        sql.BasicBinder: TRACE
+
+naver-cloud-sms:
+  accessKey: "DqaTzy21joswIEqfjSZE"
+  secretKey: "tuGs0xZmmjgtWctn98sOUPxuf9ZhccsgzFAc55vb"
+  serviceId: "ncp:sms:kr:303414987856:sms_ecocycle"
+  senderPhone: "01053224845"
+
+mail:
+  address:
+    admin: admin@gmail.com
+
+jwt:
+  key: "codestateate12321rfwaerq23423432"
+  access-token-expiration-minutes: 30
+  refresh-token-expiration-minutes: 420
+
