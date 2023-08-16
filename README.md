@@ -10,12 +10,12 @@
 ## 개발인원(Member)
 |이름|역할|담당|이름|역할|담당|
 |--|--|--|--|--|--|
-|장태환|BE 팀원| 기능 구현 |채명수|FE 팀원| 메인 페이지, 로그인, 회원가입 페이지, 클라이언트 배포 |
+|장태환|BE 팀원| 기능 구현 
 
 
 ## 프로젝트 기술 스택
 ### Environments
-<img src="https://img.shields.io/badge/intellij-000000?style=for-the-badge&logo=intellijidea&logoColor=white"><img src="https://img.shields.io/badge/visualstudiocode-007ACC?style=for-the-badge&logo=visualstudiocode&logoColor=white"><img src="https://img.shields.io/badge/git-F05032?style=for-the-badge&logo=git&logoColor=white"><img src="https://img.shields.io/badge/github-181717?style=for-the-badge&logo=github&logoColor=white">
+<img src="https://img.shields.io/badge/intellij-000000?style=for-the-badge&logo=intellijidea&logoColor=white"><img src="https://img.shields.io/badge/git-F05032?style=for-the-badge&logo=git&logoColor=white"><img src="https://img.shields.io/badge/github-181717?style=for-the-badge&logo=github&logoColor=white">
 
 ### Development Stack
 #### BackEnd
