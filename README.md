@@ -36,7 +36,19 @@
 - 배포
 
 ## 프로젝트 구현 내용
+
+  <img width="364" alt="스크린샷 2023-08-22 오후 3 50 59" src="https://github.com/Taehwan2/eco-cycle/assets/97010824/3fc5e77f-4edc-44e9-b318-c14b6ece3e4b">
+
+-사용자들이 올린 자원 정보들을 페이징 기법을 이용하여 보내주는 기능
+
+  <img width="365" alt="스크린샷 2023-08-22 오후 3 51 17" src="https://github.com/Taehwan2/eco-cycle/assets/97010824/d6dcea06-d006-4830-a5a8-025a7e229ff4">
+
+- 사진을 찍어서 자원을 등록하면, 사진은 파일시스템에 저장하고 데이터베이스 에는 파일의 경로를 저장하여, 나머지 데이터는 mongodb에 저장하는 기능 구현
   
+<img width="364" alt="스크린샷 2023-08-22 오후 3 51 33" src="https://github.com/Taehwan2/eco-cycle/assets/97010824/63396e0a-3f6f-44b0-9f25-e5720ad16b1d">
+
+- 판매 테이블에서 사용자와 대화를 하거나, 다른사람의 판매테이블을 볼 수 있는 기능
+
 ### BE
 #### 장태환
 ## 프로젝트 한계 및 개선 방안
